@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class WysiwigEditor extends Component {
+class BarcodeReader extends Component {
   render() {
     const { text } = this.props;
 
@@ -12,4 +12,4 @@ class WysiwigEditor extends Component {
   }
 }
 
-export default WysiwigEditor;
+export default BarcodeReader;
