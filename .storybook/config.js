@@ -1,5 +1,6 @@
 import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
+import 'semantic-ui-css/semantic.min.css';
 
 addDecorator(story => <div style={{ textAlign: 'left' }}>{story()}</div>);
 

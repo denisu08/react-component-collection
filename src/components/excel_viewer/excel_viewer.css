@@ -1,0 +1,96 @@
+h2,
+h3 {
+  color: #000;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+div.example {
+  margin-bottom: 80px;
+  margin-left: 20px;
+}
+
+div.intro {
+  margin-bottom: 80px;
+  width: 700px;
+  margin-left: 20px;
+  color: #000;
+}
+
+div#exampleTwo td,
+div#exampleTwo th {
+  width: 128px;
+  height: 35px;
+  border: none;
+  text-align: left;
+  background-color: inherit;
+}
+
+div#exampleTwo th {
+  background-color: #fff;
+}
+
+div#exampleTwo span {
+  line-height: 28px;
+}
+
+div#exampleTwo table {
+  -webkit-box-shadow: 2px 2px 36px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 2px 2px 36px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 2px 2px 36px 0px rgba(0, 0, 0, 0.39);
+  border: none;
+  padding: 8px;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #d7d7d7;
+  background-color: #ffffff;
+}
+
+div#exampleTwo table > tbody > tr:first-child > th {
+  border-bottom: 1px solid #d8d8d8;
+  border-right: none;
+  text-transform: uppercase;
+  text-align: left;
+  height: 30px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+div#exampleTwo table > tbody > tr > th {
+  border-right: 1px solid #d8d8d8;
+}
+
+div#exampleTwo table > tbody > tr > th:nth-child(2),
+div#exampleTwo table > tbody > tr > td:nth-child(2) {
+  padding-left: 15px;
+}
+
+div#exampleTwo td input {
+  background-color: #f0faff;
+}
+
+div#exampleTwo tr:hover {
+  background-color: #eeeeee;
+}
+
+div#exampleTwo input::selection {
+  background: #f0faff;
+}
+
+div#exampleTwo .selected {
+  border-bottom: 2px solid #ff074e;
+}
+
+div#exampleTwo .green {
+  border-left: 13px solid #62b9a4;
+}
+
+div#exampleTwo .purple {
+  border-left: 13px solid #985dff;
+}
+
+div#exampleTwo .yellow {
+  border-left: 13px solid #ff9e39;
+}
